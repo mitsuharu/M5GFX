@@ -81,14 +81,15 @@ static void epd_board_init(uint32_t epd_row_width) {
     lcd_config.leh = EPD_XLE;
     lcd_config.start_pulse = STH;
     lcd_config.stv = EPD_SPV;
-    lcd_config.data[0] = D0;
-    lcd_config.data[1] = D1;
-    lcd_config.data[2] = D2;
-    lcd_config.data[3] = D3;
-    lcd_config.data[4] = D4;
-    lcd_config.data[5] = D5;
-    lcd_config.data[6] = D6;
-    lcd_config.data[7] = D7;
+    lcd_config.data_0 = D0;
+    lcd_config.data_1 = D1;
+    lcd_config.data_2 = D2;
+    lcd_config.data_3 = D3;
+    lcd_config.data_4 = D4;
+    lcd_config.data_5 = D5;
+    lcd_config.data_6 = D6;
+    lcd_config.data_7 = D7;
+
 
 
     const EpdDisplay_t* display = epd_get_display();
