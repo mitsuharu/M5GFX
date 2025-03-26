@@ -91,7 +91,6 @@ static void epd_board_init(uint32_t epd_row_width) {
     lcd_config.data_7 = D7;
 
 
-
     const EpdDisplay_t* display = epd_get_display();
 
     LcdEpdConfig_t config;
